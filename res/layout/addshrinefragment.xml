@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/shrine_form_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/shrine_form_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp" >
+
+            <TextView
+                android:id="@+id/shrine_name_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shrine_name_title_txt"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:typeface="sans"
+                android:textColor="@android:color/background_dark" />
+            
+            <View 
+            android:id="@+id/shrine_partition_1"
+            android:layout_below="@id/shrine_name_title"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#002147"/>
+            
+            <EditText
+                android:id="@+id/shrine_name_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/shrine_partition_1"
+                android:hint="@string/shrine_name_hint_txt"
+                android:inputType="text"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:background="@drawable/fieldbg" />
+
+            <TextView
+                android:id="@+id/shrine_address_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/shrine_name_edittext"
+                android:text="@string/shrine_address_title_txt"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:typeface="sans"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginTop="20dp"  />
+            
+            <View 
+            android:id="@+id/shrine_partition_2"
+            android:layout_below="@id/shrine_address_title"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#002147"/>
+
+            <RelativeLayout
+                android:id="@+id/shrine_address_form_layout"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/shrine_partition_2">
+
+                <!-- Street -->
+                
+
+                    <TextView
+                        android:id="@+id/shrine_street_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"                        
+                        android:text="@string/shrine_street_title_txt"   
+                        android:textColor="#3556e5"                                            
+                        />
+
+                    <EditText
+                        android:id="@+id/shrine_street_edittext"
+                        android:layout_below="@id/shrine_street_title"
+                        android:layout_width="match_parent"                  
+                        android:layout_height="40dp"                       
+                        android:hint="@string/shrine_street_hint_txt"                        
+                        android:inputType="text"
+                        android:layout_marginBottom="10dp"                                                            
+                        android:background="@drawable/fieldbg" />                
+
+                <!-- town -->
+                
+
+                    <TextView
+                        android:id="@+id/shrine_town_title"
+                        android:layout_below="@id/shrine_street_edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"                        
+                        android:text="@string/shrine_town_title_txt" 
+                        android:textColor="#3556e5"/>
+
+                    <EditText
+                        android:id="@+id/shrine_town_edittext"
+                        android:layout_below="@id/shrine_town_title"
+                        android:layout_width="match_parent"                  
+                        android:layout_height="40dp"                       
+                        android:hint="@string/shrine_town_hint_txt"                        
+                        android:inputType="text"       
+                        android:layout_marginBottom="10dp"                  
+                        android:background="@drawable/fieldbg"/>                
+
+                <!-- State -->                
+
+                    <TextView
+                        android:id="@+id/shrine_state_title"
+                        android:layout_below="@id/shrine_town_edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"                        
+                        android:text="@string/shrine_state_title_txt"
+                        android:textColor="#3556e5"/>
+
+                    <EditText
+                        android:id="@+id/shrine_state_edittext"
+                        android:layout_below="@id/shrine_state_title"
+                        android:layout_width="match_parent"                  
+                        android:layout_height="40dp"                       
+                        android:hint="@string/shrine_state_hint_txt"                        
+                        android:inputType="text"               
+                        android:layout_marginBottom="20dp"         
+                        android:background="@drawable/fieldbg" />                
+
+                <!-- Zip -->
+
+                    <TextView
+                        android:id="@+id/shrine_zip_title"
+                        android:layout_below="@id/shrine_state_edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"                        
+                        android:text="@string/shrine_zip_title_txt"
+                        android:textColor="#3556e5"/>
+
+                    <EditText
+                        android:id="@+id/shrine_zip_edittext"
+                        android:layout_below="@id/shrine_zip_title"
+                        android:layout_width="match_parent"                  
+                        android:layout_height="40dp"                       
+                        android:hint="@string/shrine_zip_hint_txt"                        
+                        android:inputType="text" 
+                        android:layout_marginBottom="10dp"                       
+                        android:background="@drawable/fieldbg" />                
+
+
+                <!-- Country -->
+                
+
+                    <TextView
+                        android:id="@+id/shrine_country_title"
+                        android:layout_below="@id/shrine_zip_edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"                        
+                        android:text="@string/shrine_country_title_txt"
+                        android:textColor="#3556e5" />
+
+                    <EditText
+                        android:id="@+id/shrine_country_edittext"
+                        android:layout_below="@id/shrine_country_title"
+                        android:layout_width="match_parent"                  
+                        android:layout_height="40dp"                       
+                        android:hint="@string/shrine_country_hint_txt"                        
+                        android:inputType="text"                        
+                        android:background="@drawable/fieldbg"
+                        android:layout_marginBottom="10dp"/>                
+                
+                <!-- Contact -->                
+
+                    <TextView
+                        android:id="@+id/shrine_contact_title"
+                        android:layout_below="@id/shrine_country_edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"                        
+                        android:text="@string/shrine_contact_title_txt"
+                        android:textColor="#3556e5"/>
+
+                    <EditText
+                        android:id="@+id/shrine_contact_edittext"
+                        android:layout_below="@id/shrine_contact_title"
+                        android:layout_width="match_parent"                  
+                        android:layout_height="40dp"                       
+                        android:hint="@string/shrine_contact_hint_txt"                        
+                        android:inputType="phone"
+                        android:background="@drawable/fieldbg" />                
+
+            </RelativeLayout>
+            
+            <LinearLayout 
+                android:id="@+id/shrine_type_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/shrine_address_form_layout"
+                android:weightSum="10"
+                android:layout_marginTop="20dp">
+                
+                <TextView
+                android:id="@+id/shrine_type_title"                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shrine_type_title_txt"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:typeface="sans"
+                android:textColor="@android:color/background_dark" 
+                android:layout_weight="3" />
+            
+            	<Spinner 
+                android:id="@+id/shrine_type_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/shrine_type_array"
+                android:prompt="@string/shrine_type_prompt"
+                android:layout_weight="7"/>
+                
+            </LinearLayout>
+            <View 
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/shrine_type_layout"/>
+                              
+        </RelativeLayout>
+       
+    </ScrollView>
+    
+    <LinearLayout
+        android:id="@+id/shrine_form_bottom_button_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"        
+        android:orientation="horizontal"
+        android:weightSum="10" 
+        android:background="@android:color/darker_gray"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/shrine_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="@string/shrine_save_button_txt" 
+            android:background="@drawable/custombutton"/>
+
+        <Button
+            android:id="@+id/shrine_cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="@string/shrine_cancel_button_txt"
+            android:background="@drawable/custombutton" />
+    </LinearLayout>
+
+</RelativeLayout>

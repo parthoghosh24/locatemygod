@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/shrine_search_main_layout">
+
+    <RelativeLayout
+        android:id="@+id/home_search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp">
+               
+        
+
+        <ImageButton
+            android:id="@+id/home_search_button"                  
+            android:layout_width="50dp"
+            android:layout_height="50dp"           
+            android:layout_marginRight="0dp" 
+            android:src="@drawable/ic_menu_search"
+            android:background="@drawable/custombutton"
+            android:contentDescription="@string/shrine_search_content_desc_txt" />
+        
+        <EditText
+            android:id="@+id/home_search"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"            
+            android:layout_marginLeft="-10dp"  
+            android:layout_marginTop="-12dp"          
+            android:layout_toRightOf="@id/home_search_button"
+            android:background="@drawable/searchbar"
+            android:hint="@string/shrine_search_hint_txt"
+            android:inputType="text" />
+        
+        <ImageButton 
+            android:id="@+id/home_search_map"
+            android:layout_toRightOf="@id/home_search"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"     
+            android:layout_marginLeft="-10dp"    
+            android:background="@drawable/custombutton"               
+            android:src="@drawable/ic_menu_compass"
+            android:visibility="gone"
+            android:contentDescription="@string/shrine_search_map_content_desc_txt"
+            />
+    </RelativeLayout>
+
+        <RelativeLayout
+        android:id="@+id/shrine_buttons_layout"    
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"         
+        android:layout_below="@id/home_search_layout"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:layout_marginLeft="-35dp"
+        android:layout_marginRight="-35dp"
+        android:background="@drawable/buttonsbg">    
+        		           
+
+        <ImageButton
+            android:id="@+id/temple_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/customtemplebutton"   
+            android:contentDescription="@string/shrine_search_temple_content_desc_txt"                                          
+            />
+        
+        <TextView 
+            android:id="@+id/temple_button_desc"
+            android:layout_below="@id/temple_button"
+            android:layout_marginTop="15dp"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shrine_search_temple_name_txt"
+            android:textColor="#002147"/>
+        
+        <ImageButton
+            android:id="@+id/church_button"
+            android:layout_toRightOf="@id/temple_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"                        
+            android:background="@drawable/customchurchbutton" 
+            android:contentDescription="@string/shrine_search_church_content_desc_txt"/>
+        
+        <TextView 
+            android:id="@+id/church_button_desc"
+            android:layout_below="@id/church_button"
+            android:layout_toRightOf="@id/temple_button_desc"    
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="40dp"        
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shrine_search_church_name_txt"
+            android:textColor="#002147"/>
+        
+        <ImageButton
+            android:id="@+id/mosque_button"
+            android:layout_toRightOf="@id/church_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"                       
+            android:background="@drawable/custommosquebutton" 
+            android:contentDescription="@string/shrine_search_mosque_content_desc_txt"/>
+        
+        <TextView 
+            android:id="@+id/mosque_button_desc"
+            android:layout_below="@id/mosque_button"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/church_button_desc"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shrine_search_mosque_name_txt"
+            android:textColor="#002147"/>
+    </RelativeLayout>
+
+    <ListView 
+        android:id="@+id/search_result_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawSelectorOnTop="false"
+        android:layout_below="@id/shrine_buttons_layout"
+        android:cacheColorHint="#00000000"/>  
+          
+</RelativeLayout>

@@ -1,0 +1,7 @@
+Know issues in Locate My God ver 1.0.0:
+
+->When resuming to shrine search fragment or favorite screen, sometimes queries happen to execute automatically (Generally happens in HTC Wildfire- seldom behavior)
+
+->Not a bug though, but if google returns lat long for location, user won't be able to update unless it used Lock Location from Detail screen.
+
+->Very seldom crashes when internet connection is too weak.

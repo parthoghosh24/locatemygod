@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AppTabsActivity!</string>
+    <string name="app_name">Locate My God</string>
+    <string name="shrine_type_prompt">Choose Type</string>
+    <string-array name ="shrine_type_array">
+        <item>Temple</item>
+        <item>Church</item>
+        <item>Mosque</item>
+    </string-array>
+    
+     <!-- allshrinestrings-->
+     
+    <string name= "shrine_name_title_txt">Name</string> 
+    <string name= "shrine_name_hint_txt">Enter Name</string>
+    <string name= "shrine_address_title_txt">Address</string>
+    <string name= "shrine_street_title_txt">Street</string>
+    <string name= "shrine_street_hint_txt">Enter Street</string>
+    <string name= "shrine_town_title_txt">Town/City/Village</string>
+    <string name= "shrine_town_hint_txt">Enter Locality</string>
+    <string name= "shrine_state_title_txt">State</string>
+    <string name= "shrine_state_hint_txt">Enter State</string>
+    <string name= "shrine_zip_title_txt">Zipcode</string>
+    <string name= "shrine_zip_hint_txt">Enter Zipcode</string>
+    <string name= "shrine_country_title_txt">Country</string>
+    <string name= "shrine_country_hint_txt">Enter Country</string>
+    <string name= "shrine_contact_title_txt">Contact</string>
+    <string name= "shrine_contact_hint_txt">Enter Contact</string>
+    <string name= "shrine_type_title_txt">Type</string>
+    <string name= "shrine_save_button_txt">Save</string>
+    <string name= "shrine_cancel_button_txt">Cancel</string>
+    
+    <!-- locatemygodballoonoverlay -->
+    
+    <string name = "map_balloon_content_desc_txt">Cancel Button</string>
+    
+    <!-- shrinedetailactivity -->
+    <string name = "shrine_detail_fav_content_desc_txt">Favorite Button</string>
+    <string name = "shrine_detail_direction_button_txt">Get Directions</string>
+     <string name = "shrine_detail_map_button_txt">Map</string>
+     <string name = "shrine_detail_call_button_txt">Call</string>
+     <string name = "shrine_detail_type_content_desc_txt">Shrine Icon</string>
+     <string name= "shrine_detail_update_button_txt">Update</string>
+    <string name= "shrine_detail_cancel_button_txt">Cancel</string>
+    
+    <!-- shrinesearchfragment -->
+    <string name = "shrine_search_content_desc_txt">Search button</string>
+    <string name = "shrine_search_map_content_desc_txt">map button</string>
+    <string name = "shrine_search_temple_content_desc_txt">temple button</string>
+    <string name = "shrine_search_church_content_desc_txt">church button</string>
+    <string name = "shrine_search_mosque_content_desc_txt">mosque button</string>
+    <string name = "shrine_search_temple_name_txt">Temple</string>
+    <string name = "shrine_search_church_name_txt">Church</string>
+    <string name = "shrine_search_mosque_name_txt">Mosque</string>
+    <string name = "shrine_search_hint_txt">Search Shrines&#8230;</string>
+     
+    <!-- aboutusfragment -->
+    <string name ="about_us_heading_1_txt">Locate My God for Android</string>
+    <string name ="about_us_heading_2_txt">Version 1.0.0</string>
+    <string name ="about_us_developed_by_txt">Developed By: \nPartho Ghosh</string>
+    <string name ="about_us_designed_by_txt">Designed By: \nPartho Ghosh and Swati Mittal</string>
+    <string name ="about_us_promoted_by_txt">Marketing and Promotion:\nProdipto Ghosh</string>
+    <string name ="about_us_feedback_txt">Contact us and provide your useful feedback at: locatemygod@gmail.com</string>     
+    <string name ="about_us_copyright_txt">Copyright © 2012, Partho Ghosh(defjam24)</string>
+    <string name ="about_us_fb_content_desc_txt">Facebook Like Us</string>
+    <string name ="about_us_gplus_content_desc_txt">Google Plus</string>
+    
+    <!-- locatemygodeula -->
+    <string name = "eula_updates_text"></string>    
+    <string name = "eula_license_text"> 
+        <![CDATA[
+        <html>
+
+<p>
+END USER LICENSE AGREEMENT ("AGREEMENT" or EULA) FOR ANDROID LOCATE MY GOD SOFTWARE<br/><br/>
+PLEASE READ THIS DOCUMENT CAREFULLY BEFORE USING THIS SOFTWARE. THIS LICENSE PROVIDES IMPORTANT INFORMATION CONCERNING THE SOFTWARE, PROVIDES YOU WITH A LICENSE TO USE THE SOFTWARE AND CONTAINS WARRANTY AND LIABILITY INFORMATION.
+BY USING THE SOFTWARE, YOU ARE ACCEPTING THE SOFTWARE "AS IS" AND AGREEING TO BE BOUND BY THE TERMS OF THIS LICENSE AGREEMENT.
+IN NO EVENT WILL THE AUTHORS BE HELD LIABLE FOR ANY DAMAGES ARISING FROM THE USE OF THIS SOFTWARE.
+IF YOU DO NOT WISH TO DO SO, DO NOT USE THE SOFTWARE.
+</p>
+<p>
+You, the end-user of the Software, acknowledge that the Agreement is entered into by and between Partho Ghosh(defjam24) and you and not with Google, Inc. ("Google"). You also acknowledge that Google has no obligation whatsoever to furnish any maintenance and support services with respect to the Software.
+</p>
+<p>
+Your use of the Software constitutes your acceptance of the terms of this Agreement, which may be amended from time to time by Partho Ghosh(defjam24).
+</p>
+<ul>
+<li> Terms of License </li>
+<p>
+Subject to the terms of this Agreement, Partho Ghosh(defjam24) grants to you a nontransferable, nonexclusive, royalty-free, fully paid, worldwide license (without the right to sublicense) to install and use one copy of the Software, in executable object code format only, solely on your Android-powered Mobile Device.
+</p>
+
+<li> Restrictions on Use </li>
+<p>
+You agree to the following license restrictions: (a) to use the Software solely for your personal, noncommercial use; (b) to not duplicate, copy or distribute the Software except as necessary to use it on your Android-powered Mobile Device; (c) to not license, sell, rent, lease, transfer, assign, distribute, host, outsource, disclose or otherwise commercially exploit the Software or make the Software available to any third party; (d) to not copy the written materials accompanying the Software; (e) to not modify, translate, make derivative works of, disassemble, reverse compile or reverse engineer any part of the Software in order to build a similar or competitive product or service; and (f) to preserve all copyright and other proprietary rights notices on the Software and all copies thereof.
+</p>
+
+<li> Ownership </li>
+<p>
+This license provides you with limited rights to use the Software. The Owner retains all ownership, right, title and interest in, to and of the Software and all copies of it. All rights not specifically granted in this license, including domestic and international copyrights, are reserved by the Owner.
+</p>
+
+<li> Proprietary Markings </li>
+<p>
+The Locate My God logos, product name, manuals, documentation, and other support materials are either patented, copyrighted, trademarked, constitute valuable trade secrets (whether or not any portion of them may be copyrighted or patented) or are otherwise proprietary to the Owner. You shall not remove or obscure the Partho Ghosh(defjam24) copyright, trade mark or other proprietary notices from any of the materials contained in this package or downloaded together with the Software. Android™ is a trademark of Google, Inc., registered in the U.S. and other countries. All other trademarks appearing in the Software, Services or Agreement are the property of their respective owners.
+</p>
+
+<li> Disclaimer of Warranties and Technical Support </li>
+<p>
+You expressly acknowledge and agree that use of the Software is at your sole risk and that the entire risk as to satisfactory quality, performance, accuracy and effort is with you. To the maximum extent permitted by applicable law, the Software and Services performed or provided by the Software (“Services”) are provided “AS IS” and “AS AVAILABLE”, with all faults and without warranty of any kind, and Countdown hereby disclaims all warranties and conditions with respect to the Software and Services, either express, implied or statutory, including, but not limited to, the implied warranties and/or conditions of merchantability, of satisfactory quality, of fitness for a particular purpose, of accuracy, of quiet enjoyment, and non-infringement of third party rights.
+</p>
+<p>
+Partho Ghosh(defjam24) does not warrant against interference with your enjoyment of the Software, that the functions contained in, or Services performed or provided by, the Software will meet your requirements, that the operation of the Software or Services will be uninterrupted or error-free, or that defects in the Software or Services will be corrected. Partho Ghosh(defjam24) assumes no responsibility for any error, omission, interruption, deletion, defect, delay in operation or transmission, communications line failure, theft or destruction or unauthorized access to, or alteration of, any communication. Partho Ghosh(defjam24) is not responsible for any problems or technical malfunction of any telephone network or lines, computer online systems, servers or providers, computer equipment, software, failure of any email or players due to technical problems or traffic congestion on the Internet or on any of the Services or combination thereof, including any injury or damage to users or to any person’s computer related to or resulting from participation or downloading materials in connection with the Partho Ghosh\'s(defjam24) Services. Should the Software or Services prove defective, you assume the entire cost of all necessary servicing, repair or correction.
+</p>
+<p>
+This application uses Google\'s Location services and does not guarantee that the results returned will be always accurate and correct. 
+</p>
+<p>
+No oral or written information or advice given by Partho Ghosh(defjam24) or its authorized representative shall create a warranty.
+</p>
+<p>
+Under no circumstances shall Partho Ghosh(defjam24) be responsible for any loss or damage, including personal injury or death, resulting from use of the Services of this application.
+</p>
+<p>
+Partho Ghosh(defjam24) cannot guarantee and does not promise any specific results from use of the Locate My God.
+</p>
+</ul>
+<p>
+SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION MAY NOT APPLY TO YOU. YOU MAY ALSO HAVE OTHER LEGAL RIGHTS WHICH VARY FROM JURISDICTION TO JURISDICTION.
+</p>
+
+</html>
+]]> 
+</string>
+    
+</resources>

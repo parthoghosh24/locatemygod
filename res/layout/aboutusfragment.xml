@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg"
+            android:padding="20dp" >
+
+            <TextView
+                android:id="@+id/aboutus_heading_1_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/about_us_heading_1_txt"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/aboutus_heading_2_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aboutus_heading_1_text"
+                android:gravity="center"
+                android:text="@string/about_us_heading_2_txt"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/aboutus_developedby_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aboutus_heading_2_text"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/about_us_developed_by_txt"
+                android:textColor="@android:color/background_dark"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/aboutus_designedby_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aboutus_developedby_text"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/about_us_designed_by_txt"
+                android:textColor="@android:color/background_dark"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/aboutus_promotedby_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aboutus_designedby_text"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/about_us_promoted_by_txt"
+                android:textColor="@android:color/background_dark"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/aboutus_feedback_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aboutus_promotedby_text"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/about_us_feedback_txt"
+                android:textColor="@android:color/background_dark"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:id="@+id/aboutus_socialnetwork_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aboutus_feedback_text"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/aboutus_facebook_button"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:contentDescription="@string/about_us_fb_content_desc_txt"
+                    android:src="@drawable/fb_like_us" />
+
+                <ImageButton
+                    android:id="@+id/aboutus_gplus_button"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:contentDescription="@string/about_us_fb_content_desc_txt"
+                    android:src="@drawable/gplus_page" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/aboutus_copyright_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/about_us_copyright_txt"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10dp" />
+
+</RelativeLayout>

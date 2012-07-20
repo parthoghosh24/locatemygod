@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/map_balloon_main_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"    
+    android:minWidth="200dp"
+    android:background="@drawable/balloon" 
+    android:paddingTop="0dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="35dp"
+    android:paddingLeft="20dp">
+    
+    <RelativeLayout 
+        android:id="@+id/map_balloon_content_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="20dp">
+        
+    <TextView 
+        android:id="@+id/map_balloon_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:textSize="16dp"
+        android:textColor="#FF000000"/>    
+        
+     <TextView 
+        android:id="@+id/map_balloon_snippet_text"
+        android:layout_below="@id/map_balloon_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:textSize="12dp"/>
+        
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/map_balloon_close_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@android:drawable/ic_delete"    
+        android:layout_alignParentRight="true"    
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:contentDescription="@string/map_balloon_content_desc_txt"/>
+    
+
+</RelativeLayout>
